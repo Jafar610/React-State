@@ -14,11 +14,7 @@ class App extends Component {
   render() {
     return (
      <>
-     <Sample
-      name =  "Jafar"
-      job = "Software Developer"
-      test = "Hello world"
-     />
+     <Test />
       
      </>
     )

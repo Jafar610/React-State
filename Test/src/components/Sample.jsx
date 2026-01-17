@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 
 export default class Sample extends Component {
   constructor(props) {
@@ -11,6 +11,11 @@ export default class Sample extends Component {
     };
   }
 
+  // componentDidMount(){
+  //   alert('hello world')
+  // }
+  
+
   increment = () => {
     this.setState((state) => {
       if (state.counter < 10) {
@@ -22,10 +27,12 @@ export default class Sample extends Component {
         return{
             counter: state.counter,
             status: "Max Limit Reached"
-            }
+          }
       }
     });
   };
+
+  
   render() {
     return (
       <div>
