@@ -7,12 +7,7 @@ class Test2 extends Component {
             count : 0,
         }
     }
-
-    Add = ()=>{
-
-    }
-
-
+    
   render() {
     return (
       <>
